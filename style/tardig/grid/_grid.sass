@@ -1,0 +1,116 @@
+@import '../variables'
+@import 'mixins'
+
+// Resets
+.container,
+.container::before,
+.container::after,
+.row,
+.row::before,
+.row::after,
+.flex-grid,
+.flex-grid::before,
+.flex-grid::after
+[class*='col-'],
+[class*='col-']::before,
+[class*='col-']::after,
+[class*='block-grid-'],
+[class*='block-grid-']::before,
+[class*='block-grid-']::after,
+[class*='block-grid-'] > li,
+[class*='block-grid-'] > .block-item
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+// Container & Row
+.container
+  width: calc(100% - (#{$gutter} * 2))
+  padding: 0 $gutter
+  margin: 0 auto
+
+.responsive.container,
+.responsive .container
+  @extend %responsive
+
+.row,
+.flex-row,
+[class*='block-grid-']
+  display: block
+  padding: 0
+  margin: 0 (-$gutter)
+
+// Clearfix
+.container,
+.row,
+.flex-row,
+[class*='block-grid-']
+  @extend %clearfix
+
+// Column defaults
+[class*='col-'],
+[class*='block-grid-'] > li,
+[class*='block-grid-'] > .block-item
+  position: relative
+  display: block
+  float: left
+  padding: 0 $gutter
+  width: 100%
+  min-height: 1px
+  height: auto
+
+// Block Grid
+ul[class*='block-grid-']
+  list-style-type: none
+
+// Flexbox Grid
+@import flex-grid
+
+// Standard columns - For all screen sizes (no media queries)
++column-sizes('')
++column-push('')
++column-pull('')
++column-offset('')
++block-grid('')
++padded('')
++display('')
+
+// XS columns - For screens 480px+
++break-xs
+  +column-sizes('-xs')
+  +column-push('-xs')
+  +column-pull('-xs')
+  +column-offset('-xs')
+  +block-grid('-xs')
+  +padded('-xs')
+  +display('-xs')
+
+// SM columns - For screens 768px+
++break-sm
+  +column-sizes('-sm')
+  +column-push('-sm')
+  +column-pull('-sm')
+  +column-offset('-sm')
+  +block-grid('-sm')
+  +padded('-sm')
+  +display('-sm')
+
+// MD columns - For screens 992px+
++break-md
+  +column-sizes('-md')
+  +column-push('-md')
+  +column-pull('-md')
+  +column-offset('-md')
+  +block-grid('-md')
+  +padded('-md')
+  +display('-md')
+
+// LG columns - For screens 1200px+
++break-lg
+  +column-sizes('-lg')
+  +column-push('-lg')
+  +column-pull('-lg')
+  +column-offset('-lg')
+  +block-grid('-lg')
+  +padded('-lg')
+  +display('-lg')

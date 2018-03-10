@@ -1,0 +1,29 @@
+
+<section class="venues-page">
+  <div class="container">
+    <div class="row">
+      <ul class="block-grid-7 text-center">
+        <li class="venues-day" ng-repeat="d in days" ng-click="changeDay(d.day)"><span class="hide-sm">{{ d.letter }}</span><span class="hide show-sm-block hide-lg">{{ d.short }}</span><span class="hide show-lg-block">{{ d.day }}</span></li>
+      </ul>
+    </div>
+    <div class="row" ng-repeat="v in venues">
+      <div class="col-sm-10 offset-sm-1" ng-repeat="l in v.location">
+        <div class="media" ng-repeat="s in l.shows | filter: s.day=day || (date | date: 'EEEE')"><img class="media-left img-responsive-img-center" ng-src="{{ v.img }}" alt="{{ v.name }}"/>
+          <div class="media-body">
+            <h2>{{ v.name }}</h2>
+            <div class="row">
+              <div class="col-6">
+                <p>{{ l.address1 }} <br> {{ l.address2 }}</p>
+                <p>{{ l.phone | phoneUS }}</p>
+              </div>
+              <div class="col-6">
+                <p>{{ s.type }}</p>
+                <p>{{ s.day }} <br> {{ s.start }} - {{ s.end }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,249 @@
+html, body
+  font-size: (16px / $scale)
+  +break-sm
+    font-size: 16px
+  +break-lg
+    font-size: (16px * $scale)
+
+header, section, footer
+  padding: $sectionPadding 0
+  position: relative
+
+nav
+  background-color: rgba($black, 0.5)
+  height: ($sectionPadding / 2)
+  left: 0
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 100
+  ul.block-grid-4
+    li
+      line-height: ($sectionPadding / 2)
+      margin-bottom: 0
+      margin-top: 0
+      text-align: center
+      a
+        color: $white
+        +font(2)
+        line-height: ($sectionPadding / 2)
+        text-decoration: none
+
+header.main
+  background:
+    image: linear-gradient(rgba(black, 0.7), rgba(black, 0.7)), url('../img/placeholder.jpg')
+    position: center center
+    size: cover
+  box-sizing: border-box
+  color: $white
+  height: 100vh
+  .container
+    height: 100%
+    position: relative
+    .row
+      position: absolute
+      width: 100%
+      &:first-child
+        top: 0
+      &:nth-child(2)
+        top: 50%
+        transform: translateY(-50%)
+      &:last-child
+        bottom: 4rem
+  &::before, &::after
+    border-bottom: $angleSize $darkGray solid
+    bottom: 0
+    content: ''
+    display: block
+    height: 0
+    position: absolute
+    width: 0
+  &::before
+    border-right: 50vw transparent solid
+    right: 50%
+  &::after
+    border-left: 50vw transparent solid
+    right: 0
+
+footer
+  background-color: $black
+  color: $white
+
+section.about
+  background-color: $darkGray
+  color: $white
+  img
+    margin-bottom: $baseline-height-rem
+
+section.services
+  background-color: $dark
+  color: $primary
+  .default-services
+    img
+      max-width: 50%
+  .service-description
+    position: relative
+    .close img
+      height: 2rem
+      position: absolute
+      right: 0
+      top: 0
+    .direction-arrow
+      margin-top: 5rem
+  .service-nav
+    img
+      transition: transform 0.3s ease
+    .active img
+      transform: scale(1.5)
+      transform-origin: center center
+
+section.venues
+  background-color: $black
+  color: $primary
+  padding-bottom: ($sectionPadding + ($angleSize / 2))
+  &::after
+    border-bottom: $angleSize $testimonialsBG solid
+    border-left: 100vw transparent solid
+    bottom: 0
+    content: ''
+    display: block
+    position: absolute
+    right: 0
+  ul.venue-list
+    padding-bottom: $baseline-height-rem
+
+section.testimonials
+  background-color: $testimonialsBG
+  color: $white
+
+section.contact
+  background-color: $contactBG
+  color: $white
+  padding-top: ($sectionPadding + ($angleSize / 2))
+  &::before
+    border-left: 100vw transparent solid
+    border-top: $angleSize $testimonialsBG solid
+    content: ''
+    display: block
+    position: absolute
+    right: 0
+    top: 0
+  form
+    background-color: $black
+    color: $black
+    height: 8rem
+    margin: 0
+    position: relative
+    &::before
+      clear: both
+      content: ""
+      display: table
+      height: 0
+      margin-top: -1px
+    fieldset
+      border: none
+      margin: 0 auto
+      padding: 0
+      position: relative
+      width: 80%
+      .form-group
+        display: inline-block
+        width: 100%
+      input, select, textarea
+        border: none
+        border-radius: 0.25rem
+        box-sizing: border-box
+        display: block
+        height: 2rem
+        outline: none
+        padding: 0 15px
+        width: 100%
+      textarea
+        height: 6rem
+        resize: none
+      label
+        padding-left: 15px
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+      &.name-info
+        position: relative
+        margin: 3rem auto 0
+        .form-group
+          width: 45%
+          &:nth-child(2)
+            float: right
+      &.subject-info
+        position: relative
+        margin: 3rem auto 0
+      &.message-info
+        position: relative
+        margin: 1rem auto 0
+
+    span.next, span.back, input[type="submit"]
+      border: 0
+      cursor: pointer
+      display: block
+      position: absolute
+      height: 4rem
+      width: 4rem
+      border-radius: 50%
+      background: $testimonialsBG
+      line-height: 4rem
+      text-align: center
+      top: 2rem
+    span.next, input[type="submit"]
+      right: -2rem
+    span.back
+      left: -2rem
+
+h1, h2, h3, h4, h5, h6, .cta,
+label, input, textarea, select, option
+  font-family: "Quicksand", sans-serif
+
+h1, h2, h3, .cta
+  font-weight: 700
+
+h4, h5, h6,
+label, input, textarea, select, option
+  font-weight: 500
+
+p, span, ul, li
+  font-family: "Open Sans", sans-serif
+
+ul[class*="block-grid"]
+  li
+    margin-bottom: $gutter
+    margin-top: $gutter
+
+.cta
+  background: none
+  border: 3px $white solid
+  border-radius: 1rem
+  color: $white
+  display: block
+  font-size: 2rem
+  padding: 1rem 0
+  text-align: center
+  text-decoration: none
+
+.img-round
+  border-radius: 50%
+
+table
+  td, th
+    border: none
+    padding: 0.5rem
+    text-align: left
+  th
+    cursor: pointer
+    user-select: none
+  tbody
+    tr:nth-child(odd)
+      background-color: $gray
+  i.fa
+    padding-left: 0.5rem
+  .artist, .title
+    width: 40%
+  .genre, .year
+    width: 10%

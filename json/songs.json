@@ -1,0 +1,643 @@
+[
+  {
+    "title": "1904",
+    "artist": "The Tallest Man on Earth",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "#40",
+    "artist": "Dave Matthews",
+    "year": "1999",
+    "genre": "Rock"
+  }, {
+    "title": "40oz to Freedom",
+    "artist": "Sublime",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "#41",
+    "artist": "Dave Matthews",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "American Girl",
+    "artist": "Tom Petty",
+    "year": "1977",
+    "genre": "Rock"
+  }, {
+    "title": "American Music",
+    "artist": "Violent Femmes",
+    "year": "1991",
+    "genre": "Rock"
+  }, {
+    "title": "American Pie",
+    "artist": "Don McLean",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "And it Stoned Me",
+    "artist": "Van Morrison",
+    "year": "1970",
+    "genre": "Rock"
+  }, {
+    "title": "A Sailor's Christmas",
+    "artist": "Jimmy Buffett",
+    "year": "1996",
+    "genre": "Pop"
+  }, {
+    "title": "Badfish",
+    "artist": "Sublime",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "Banana Pancakes",
+    "artist": "Jack Johnson",
+    "year": "2005",
+    "genre": "Pop"
+  }, {
+    "title": "Barefoot Children",
+    "artist": "Jimmy Buffett",
+    "year": "1995",
+    "genre": "Pop"
+  }, {
+    "title": "Big Parade",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Brown Eyed Girl",
+    "artist": "Van Morrison",
+    "year": "1967",
+    "genre": "Rock"
+  }, {
+    "title": "Cape Canaveral",
+    "artist": "Conor Oberst",
+    "year": "2008",
+    "genre": "Pop"
+  }, {
+    "title": "Carry On",
+    "artist": "fun.",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "Catch the Wind",
+    "artist": "Donovan",
+    "year": "1965",
+    "genre": "Pop"
+  }, {
+    "title": "Cat's in the Cradle",
+    "artist": "Harry Chapin",
+    "year": "1974",
+    "genre": "Folk"
+  }, {
+    "title": "Changes in Latitudes, Changes in Attitudes",
+    "artist": "Jimmy Buffett",
+    "year": "1977",
+    "genre": "Pop"
+  }, {
+    "title": "Classy Girls",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": "1993",
+    "genre": "Rock"
+  }, {
+    "title": "Danny Boy",
+    "artist": "Johnny Cash",
+    "year": "2002",
+    "genre": "Country"
+  }, {
+    "title": "Darkness Between the Fireflies",
+    "artist": "Mason Jennings",
+    "year": "1997",
+    "genre": "Folk"
+  }, {
+    "title": "Dead Sea",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Distantly in Love",
+    "artist": "Jimmy Buffett",
+    "year": "1983",
+    "genre": "Pop"
+  }, {
+    "title": "Don't Leave Me (Ne Me Quitte Pas)",
+    "artist": "Regina Spektor",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": "1981",
+    "genre": "Rock"
+  }, {
+    "title": "Doomsday",
+    "artist": "Elvis Perkins",
+    "year": "2009",
+    "genre": "Folk"
+  }, {
+    "title": "Do You Remember",
+    "artist": "Jack Johnson",
+    "year": "2005",
+    "genre": "Pop"
+  }, {
+    "title": "Drink the Water",
+    "artist": "Jack Johnson",
+    "year": "2001",
+    "genre": "Pop"
+  }, {
+    "title": "Emmylou",
+    "artist": "First Aid Kit",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Fall Line",
+    "artist": "Jack Johnson",
+    "year": "2003",
+    "genre": "Pop"
+  }, {
+    "title": "Father and Son",
+    "artist": "Cat Stevens",
+    "year": "1970",
+    "genre": "Folk"
+  }, {
+    "title": "Flake",
+    "artist": "Jack Johnson",
+    "year": "2001",
+    "genre": "Pop"
+  }, {
+    "title": "Flapper Girl",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Flowers in Your Hair",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Folsom Prison Blues",
+    "artist": "Johnny Cash",
+    "year": "1957",
+    "genre": "Country"
+  }, {
+    "title": "Free Fallin'",
+    "artist": "Tom Petty",
+    "year": "1989",
+    "genre": "Rock"
+  }, {
+    "title": "Furr",
+    "artist": "Blitzen Trapper",
+    "year": "2008",
+    "genre": "Rock"
+  }, {
+    "title": "Get Well Cards",
+    "artist": "Conor Oberst",
+    "year": "2008",
+    "genre": "Rock"
+  }, {
+    "title": "Gulf Coast Highway",
+    "artist": "Emmylou Harris",
+    "year": "2000",
+    "genre": "Country"
+  }, {
+    "title": "Half Light I",
+    "artist": "Arcade Fire",
+    "year": "2010",
+    "genre": "Pop"
+  }, {
+    "title": "Half Light II (No Celebration)",
+    "artist": "Arcade Fire",
+    "year": "2010",
+    "genre": "Pop"
+  }, {
+    "title": "Harvest",
+    "artist": "Neil Young",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "Heart of Gold",
+    "artist": "Neil Young",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "Here I Go Again",
+    "artist": "Whitesnake",
+    "year": "1982",
+    "genre": "Rock"
+  }, {
+    "title": "Hey Jealousy",
+    "artist": "Gin Blossoms",
+    "year": "1992",
+    "genre": "Rock"
+  }, {
+    "title": "Hey Soul Sister",
+    "artist": "Train",
+    "year": "2009",
+    "genre": "Rock"
+  }, {
+    "title": "High and Dry",
+    "artist": "Radiohead",
+    "year": "1995",
+    "genre": "Rock"
+  }, {
+    "title": "Ho Hey",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Hollywood Forever Cemetery Sings",
+    "artist": "Father John Misty",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Home",
+    "artist": "Edward Sharpe & The Magnetic Zeros",
+    "year": "2009",
+    "genre": "Folk"
+  }, {
+    "title": "Honey Do",
+    "artist": "Jimmy Buffett",
+    "year": "1983",
+    "genre": "Pop"
+  }, {
+    "title": "Hospitals and Jails",
+    "artist": "Mason Jennings",
+    "year": "2002",
+    "genre": "Folk"
+  }, {
+    "title": "Hotel California",
+    "artist": "The Eagles",
+    "year": "1977",
+    "genre": "Rock"
+  }, {
+    "title": "Hotel Yorba",
+    "artist": "The White Stripes",
+    "year": "2001",
+    "genre": "Rock"
+  }, {
+    "title": "I Feel Home",
+    "artist": "OAR",
+    "year": "1999",
+    "genre": "Folk"
+  }, {
+    "title": "I Knew You Were Trouble",
+    "artist": "Taylor Swift",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "I'm Writing a Novel",
+    "artist": "Father John Misty",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Island in the Sun",
+    "artist": "Weezer",
+    "year": "2001",
+    "genre": "Rock"
+  }, {
+    "title": "I Won't Give Up",
+    "artist": "Jason Mraz",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "Jack & Diane",
+    "artist": "John Mellencamp",
+    "year": "1982",
+    "genre": "Rock"
+  }, {
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "year": "1997",
+    "genre": "Rock"
+  }, {
+    "title": "King of Spain",
+    "artist": "The Tallest Man on Earth",
+    "year": "2010",
+    "genre": "Folk"
+  }, {
+    "title": "King of the World",
+    "artist": "First Aid Kit",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Lean On Me",
+    "artist": "Bill Withers",
+    "year": "1972",
+    "genre": "R&B"
+  }, {
+    "title": "Little Talks",
+    "artist": "Of Monsters and Men",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Live and Die",
+    "artist": "The Avett Brothers",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Lola",
+    "artist": "The Kinks",
+    "year": "1970",
+    "genre": "Rock"
+  }, {
+    "title": "Lonesome Town",
+    "artist": "Ricky Nelson",
+    "year": "1958",
+    "genre": "Rock"
+  }, {
+    "title": "Love in the Library",
+    "artist": "Jimmy Buffett",
+    "year": "1994",
+    "genre": "Pop"
+  }, {
+    "title": "Love Story",
+    "artist": "Taylor Swift",
+    "year": "2008",
+    "genre": "Pop"
+  }, {
+    "title": "Margaritaville",
+    "artist": "Jimmy Buffett",
+    "year": "1977",
+    "genre": "Pop"
+  }, {
+    "title": "Me and Julio Down by the Schoolyard",
+    "artist": "Paul Simon",
+    "year": "1972",
+    "genre": "Pop"
+  }, {
+    "title": "Migration",
+    "artist": "Jimmy Buffett",
+    "year": "1974",
+    "genre": "Pop"
+  }, {
+    "title": "Moonshadow",
+    "artist": "Cat Stevens",
+    "year": "1971",
+    "genre": "Folk"
+  }, {
+    "title": "Mudfootball",
+    "artist": "Jack Johnson",
+    "year": "2001",
+    "genre": "Pop"
+  }, {
+    "title": "My Antonia",
+    "artist": "Emmylou Harris",
+    "year": "2000",
+    "genre": "Country"
+  }, {
+    "title": "New Realization",
+    "artist": "Sublime",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "No Surprises",
+    "artist": "Radiohead",
+    "year": "1997",
+    "genre": "Rock"
+  }, {
+    "title": "Nothing",
+    "artist": "Mason Jennings",
+    "year": "1997",
+    "genre": "Folk"
+  }, {
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "year": "1992",
+    "genre": "Metal"
+  }, {
+    "title": "Only Son of the Ladiesman",
+    "artist": "Father John Misty",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "Out on the Weekend",
+    "artist": "Neil Young",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "Party in the USA",
+    "artist": "Miley Cyrus",
+    "year": "2009",
+    "genre": "Pop"
+  }, {
+    "title": "Patience",
+    "artist": "Guns N' Roses",
+    "year": "1989",
+    "genre": "Rock"
+  }, {
+    "title": "Redemption Song",
+    "artist": "Bob Marley",
+    "year": "1980",
+    "genre": "Reggae"
+  }, {
+    "title": "Rivers of Babylon",
+    "artist": "Sublime",
+    "year": "1998",
+    "genre": "Rock"
+  }, {
+    "title": "Rocket Man",
+    "artist": "Elton John",
+    "year": "1972",
+    "genre": "Pop"
+  }, {
+    "title": "Rodeo Clowns",
+    "artist": "Jack Johnson",
+    "year": "2003",
+    "genre": "Pop"
+  }, {
+    "title": "Send My Fond Regards to Lonelyville",
+    "artist": "Elvis Perkins",
+    "year": "2009",
+    "genre": "Folk"
+  }, {
+    "title": "Sentimental Heart",
+    "artist": "She & Him",
+    "year": "2008",
+    "genre": "Folk"
+  }, {
+    "title": "Shelter from the Storm",
+    "artist": "Bob Dylan",
+    "year": "1975",
+    "genre": "Folk"
+  }, {
+    "title": "Some Nights",
+    "artist": "fun.",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "Somewhere Only We Know",
+    "artist": "Keane",
+    "year": "2004",
+    "genre": "Rock"
+  }, {
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "year": "1969",
+    "genre": "Rock"
+  }, {
+    "title": "Stay or Leave",
+    "artist": "Dave Matthews",
+    "year": "2003",
+    "genre": "Rock"
+  }, {
+    "title": "Stubborn Love",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Stuck in the Middle With You",
+    "artist": "Stealers Wheel",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "Submarines",
+    "artist": "The Lumineers",
+    "year": "2012",
+    "genre": "Rock"
+  }, {
+    "title": "Sugar Mountain",
+    "artist": "Neil Young",
+    "year": "1977",
+    "genre": "Rock"
+  }, {
+    "title": "Summer of '69",
+    "artist": "Bryan Adams",
+    "year": "1984",
+    "genre": "Rock"
+  }, {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "year": "1974",
+    "genre": "Rock"
+  }, {
+    "title": "Tangled Up in Blue",
+    "artist": "Bob Dylan",
+    "year": "1975",
+    "genre": "Folk"
+  }, {
+    "title": "The Drugs Don't Work",
+    "artist": "Ben Harper",
+    "year": "2001",
+    "genre": "Folk"
+  }, {
+    "title": "The General",
+    "artist": "Dispatch",
+    "year": "2000",
+    "genre": "Rock"
+  }, {
+    "title": "The Lion's Roar",
+    "artist": "First Aid Kit",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "The Man in Me",
+    "artist": "Bob Dylan",
+    "year": "1970",
+    "genre": "Folk"
+  }, {
+    "title": "The Mother We Share",
+    "artist": "Chvrches",
+    "year": "2013",
+    "genre": "Pop"
+  }, {
+    "title": "The Needle and the Damage Done",
+    "artist": "Neil Young",
+    "year": "1972",
+    "genre": "Rock"
+  }, {
+    "title": "The Weather is Here, Wish You Were Beautiful",
+    "artist": "Jimmy Buffett",
+    "year": "1981",
+    "genre": "Pop"
+  }, {
+    "title": "The Weight",
+    "artist": "The Band",
+    "year": "1968",
+    "genre": "Rock"
+  }, {
+    "title": "Tin Cup Chalice",
+    "artist": "Jimmy Buffett",
+    "year": "1974",
+    "genre": "Pop"
+  }, {
+    "title": "Tiny Dancer",
+    "artist": "Elton John",
+    "year": "1971",
+    "genre": "Pop"
+  }, {
+    "title": "Trying to Reason with Hurricane Season",
+    "artist": "Jimmy Buffett",
+    "year": "1974",
+    "genre": "Pop"
+  }, {
+    "title": "Under the Milky Way",
+    "artist": "The Church",
+    "year": "1988",
+    "genre": "Rock"
+  }, {
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
+    "year": "2008",
+    "genre": "Pop"
+  }, {
+    "title": "Watching the Wheels",
+    "artist": "John Lennon",
+    "year": "1981",
+    "genre": "Rock"
+  }, {
+    "title": "Way Over Yonder in the Minor Key",
+    "artist": "Billy Bragg & Wilco",
+    "year": "1998",
+    "genre": "Folk"
+  }, {
+    "title": "We Are Never Ever Getting Back Together",
+    "artist": "Taylor Swift",
+    "year": "2012",
+    "genre": "Pop"
+  }, {
+    "title": "We're Going To Be Friends",
+    "artist": "The White Stripes",
+    "year": "2001",
+    "genre": "Rock"
+  }, {
+    "title": "What I Got",
+    "artist": "Sublime",
+    "year": "1996",
+    "genre": "Rock"
+  }, {
+    "title": "Wind and Walls",
+    "artist": "The Tallest Man on Earth",
+    "year": "2012",
+    "genre": "Folk"
+  }, {
+    "title": "With a Little Help From My Friends",
+    "artist": "The Beatles",
+    "year": "1967",
+    "genre": "Rock"
+  }, {
+    "title": "Ya Hey",
+    "artist": "Vampire Weekend",
+    "year": "2013",
+    "genre": "Pop"
+  }, {
+    "title": "You Belong With Me",
+    "artist": "Taylor Swift",
+    "year": "2008",
+    "genre": "Pop"
+  }, {
+    "title": "You Love Me",
+    "artist": "DeVotchKa",
+    "year": "2004",
+    "genre": "Rock"
+  }
+]

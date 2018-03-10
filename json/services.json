@@ -1,0 +1,50 @@
+[
+  {
+    "service": "Casinos",
+    "icon": "img/services/white-casino.svg",
+    "link": "#casinos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Corporate",
+    "icon": "img/services/white-corporate.svg",
+    "link": "#corporate",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "DJ",
+    "icon": "img/services/white-dj.svg",
+    "link": "#dj",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Karaoke",
+    "icon": "img/services/white-karaoke.svg",
+    "link": "#karaoke",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Parties",
+    "icon": "img/services/white-parties.svg",
+    "link": "#parties",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Reunions",
+    "icon": "img/services/white-reunions.svg",
+    "link": "#reunions",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Trivia",
+    "icon": "img/services/white-trivia.svg",
+    "link": "#trivia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  },
+  {
+    "service": "Weddings",
+    "icon": "img/services/white-weddings.svg",
+    "link": "#weddings",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores soluta, accusamus mollitia, aut nesciunt ab. Sed reprehenderit voluptas quibusdam qui vel quidem rem sapiente, quae cupiditate debitis non, maxime cum quod, in repellat corporis doloremque culpa consequatur? Non quisquam excepturi, quibusdam soluta id esse cum ad nam placeat nobis deserunt tempore animi totam repellat cumque ipsa obcaecati expedita nihil odit, itaque atque ab, magnam repudiandae vel corporis. Libero accusantium voluptates aliquid doloribus cum blanditiis. Consequuntur excepturi voluptatem dolorum in dignissimos, suscipit quisquam quam eveniet expedita rerum? Temporibus molestias eligendi porro aperiam voluptatem libero, nulla eveniet, voluptatibus! Minus dolores, perspiciatis nam?"
+  }
+]

@@ -1,0 +1,31 @@
+
+<section class="songs">
+  <div class="container">
+    <form> 
+      <div class="row">
+        <div class="col-7 col-sm-4 offset-sm-4">
+          <label><i class="fa fa-search fa-lg"></i></label>
+          <input type="text" ng-model="filterSearch"/>
+        </div>
+      </div>
+    </form>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <table>
+          <thead>
+            <tr>
+              <th class="artist" ng-click="sorting('artist')">Artist<i class="fa fa-caret-up" ng-show="sortBy === 'artist' &amp;&amp; sortReverse"></i><i class="fa fa-caret-down" ng-show="sortBy === 'artist' &amp;&amp; !sortReverse"></i></th>
+              <th class="title" ng-click="sorting('title')">Song<i class="fa fa-caret-up" ng-show="sortBy === 'title' &amp;&amp; sortReverse"></i><i class="fa fa-caret-down" ng-show="sortBy === 'title' &amp;&amp; !sortReverse"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="s in songs | orderBy: customOrder(sortBy): sortReverse | filter: filterSearch">
+              <td>{{ s.artist }}</td>
+              <td>{{ s.title }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

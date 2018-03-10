@@ -1,0 +1,133 @@
+@import '../variables'
+@import 'mixins'
+@import 'custom'
+
+html, body
+  font-size: #{$base-font-size}px
+  line-height: $baseline-height
+
+a
+  background-color: transparent
+  -webkit-text-decoration-skip: objects
+
+sub,
+sup
+  font-size: 75%
+  line-height: 1px
+  position: relative
+  vertical-align: baseline
+
+sup
+  top: -.5em
+
+sub
+  bottom: -.25em
+
+pre,
+code,
+kbd,
+samp
+  font-size: 1rem
+
+abbr[title]
+  border-bottom: none
+  text-decoration: underline
+  text-decoration: underline dotted
+
+b,
+strong
+  font-weight: bold
+
+dfn,
+caption
+  font-style: italic
+
+hr
+  border: 0
+  border-top: 2px solid #000
+  height: 0
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+  width: 100%
+  table-layout: fixed
+
+caption
+  text-align: left
+
+th,
+td
+  border-bottom: 1px solid #000
+  vertical-align: top
+
+thead th
+  vertical-align: bottom
+  border-bottom-width: 2px
+
+h1, h2, h3, h4, h5, h6, p, small,
+blockquote, figure, table, td, th,
+ul, ol, li, dd, dl, dt, details, hr,
+fieldset, pre, caption
+  margin: 0 0 #{$baseline-height * $base-font-size}px
+  margin: 0 0 $baseline-height-rem
+
+input,
+option,
+select,
+input[type="color"]
+  height: calc(#{$baseline-height-rem} + (#{$input-padding} * 2rem))
+
+input[type="checkbox"],
+input[type="radio"]
+  display: inline-block
+  height: auto
+  width: auto
+
+h1, .h1
+  +font(6)
+
+h2, .h2
+  +font(5)
+
+h3, .h3
+  +font(4)
+
+h4, .h4
+  +font(3)
+
+h5, .h5
+  +font(2)
+
+h6, .h6
+  +font(1)
+
+p
+  +font(0)
+
+small
+  +font(-1)
+
+hr
+  height: 0
+  border-top: 1px solid gray
+
++text-align('')
++text-transform('')
++text-decoration('')
++break-xs
+  +text-align('-xs')
+  +text-transform('-xs')
+  +text-decoration('-xs')
++break-sm
+  +text-align('-sm')
+  +text-transform('-sm')
+  +text-decoration('-sm')
++break-md
+  +text-align('-md')
+  +text-transform('-md')
+  +text-decoration('-md')
++break-lg
+  +text-align('-lg')
+  +text-transform('-lg')
+  +text-decoration('-lg')

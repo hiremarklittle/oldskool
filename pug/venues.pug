@@ -1,0 +1,25 @@
+extends _layout.pug
+include _mixins.pug
+
+block content
+  section.venues-page
+    .container
+      .row
+        ul.block-grid-7.text-center
+          li.venues-day(ng-repeat="d in days" ng-click="changeDay(d.day)")
+            span.hide-sm {{ d.letter }}
+            span.hide.show-sm-block.hide-lg {{ d.short }}
+            span.hide.show-lg-block {{ d.day }}
+      .row(ng-repeat="v in venues")
+        .col-sm-10.offset-sm-1(ng-repeat="l in v.location")
+          .media(ng-repeat="s in l.shows | filter: s.day=day || (date | date: 'EEEE')")
+            img.media-left.img-responsive-img-center(ng-src="{{ v.img }}", alt="{{ v.name }}")
+            .media-body
+              h2 {{ v.name }}
+              .row
+                .col-6
+                  p {{ l.address1 }} <br> {{ l.address2 }}
+                  p {{ l.phone | phoneUS }}
+                .col-6
+                  p {{ s.type }}
+                  p {{ s.day }} <br> {{ s.start }} - {{ s.end }}

@@ -1,0 +1,31 @@
+doctype html
+html(lang="en" ng-app="app")
+  head
+    title Old Skool Entertainment
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(charset="utf-8")
+      
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Quicksand:500,700")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="style/main.css")
+      
+  body.responsive
+    nav
+      .container
+        ul.block-grid-4
+          li: a(href="#main") Home
+          li: a(href="#songs") Songs
+          li: a(href="#venues") Venues
+          li: a(href="#contact") Contact
+    div(ng-view)
+      
+    footer
+      .container
+        .row
+          .col-6
+            p &copy; Old Skool Entertainment, 2017
+      
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.min.js")
+    script(src="script/app.js")

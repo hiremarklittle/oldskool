@@ -1,0 +1,110 @@
+header.main
+  .container
+    .row
+      .col-6.offset-3
+        img.img-responsive.img-center(src="img/ose_logo.png", alt="Old Skool Entertainement")
+      
+          
+    .row.headline
+      .col-10.offset-1.col-sm-8.offset-sm-2
+        h2.text-center At Old Skool Productions, we strive to create the perfect experience for your event.
+        
+    .row
+      .col-10.offset-1.col-sm-6.offset-sm-3
+        a.cta(ng-href="/contact") Book Us Now
+        
+section.about
+  .container
+    .row
+      .col-12
+        h2.text-center Who are we?
+    ul.block-grid-2.block-grid-sm-4
+      li.text-center(ng-repeat="s in staff")
+        img.img-responsive.img-center.img-round(ng-src="{{ s.img }}", alt="{{ s.name }}")
+        h4 {{ s.name }}
+        h6.text-push-up {{ s.position }}
+        
+section.services
+  .container
+    .row
+      .col-12
+        h2.text-center What do we do?
+    .row.default-services(ng-if="isServiceIndex(-1)")
+      .col-12
+        ul.block-grid-2.block-grid-xs-3.block-grid-sm-4
+          li(ng-repeat="s in services", ng-click="setServiceIndex($index)")
+            img.img-resposive.img-center(ng-src="{{ s.icon }}", alt="{{ s.service }}")
+            h3.text-center {{ s.service }}
+    
+    .row.service-description(ng-if="serviceIndex >= 0")
+      .col-1.direction-arrow
+        img.img-responsive.img-center(src="img/services/white-left-arrow.svg", alt="Back", ng-click="prevServiceIndex()")
+      .col-10
+        div(ng-repeat="s in services" ng-if="isServiceIndex($index)")
+          h3 {{ s.service }}
+          p {{ s.description }}
+      .col-1.direction-arrow
+        img.img-responsive.img-center(src="img/services/white-right-arrow.svg", alt="Next", ng-click="nextServiceIndex()")
+      .close
+        img(src="img/services/white-close.svg", alt="close", ng-click="setServiceIndex(-1)")
+        
+    .row(ng-if="serviceIndex >= 0")
+      ul.block-grid-8.service-nav
+        li(ng-repeat="s in services" ng-class="{'active': isServiceIndex($index), 'next': $index}")
+          img.img-responsive.img-center(ng-src="{{ s.icon }}", alt="{{ s.service }}", ng-click="setServiceIndex($index)")
+            
+section.venues
+  .container
+    .row
+      .col-12
+        h2.text-center Find us at any of these weekly venues
+    ul.block-grid-2.block-grid-xs-3.block-grid-sm-4.block-grid-lg-6.venue-list
+      li(ng-repeat="v in venues | orderBy: 'name'")
+        img.img-responsive.img-center(ng-src="{{ v.img }}", alt="{{ v.name }}")
+    .row
+      .col-10.offset-1.col-sm-6.offset-sm-3
+        a.cta(href="/venues") Find A Show
+        
+section.testimonials
+  .container
+    .row
+      .col-12
+        h2.text-right What are people saying about us?
+    .row(ng-repeat="t in testimonials")
+      .col-sm-6.push-sm-6.col-md-8.push-md-4
+        p.testimonial {{ t.testimony }}
+      .col-sm-6.pull-sm-6.col-md-4.pull-md-8
+        h6.text-right.text-sm-left {{ t.name }}
+          br
+          span.small {{ t.organization }}
+        
+section.contact
+  .container
+    .row
+      .col-12.text-center
+        h2 Contact Us
+        h4.text-push-up 704.235.8345
+    .row
+      .col-10.offset-1
+        form(method="post", action="")
+          fieldset.name-info(ng-show="formStep === 1")
+            div.form-group
+              label(for="name") Name
+              input#name(type="text")
+            div.form-group
+              label(for="email") Email
+              input#email(type="email")
+          fieldset.subject-info(ng-show="formStep === 2")
+            div.form-group
+              //label(for="subject") Subject
+              select#subject
+                option(value="booking") Book a show
+                option(value="question") I have a question
+                option(value="testimonial") I want to give a testimonial
+          fieldset.message-info(ng-show="formStep === 3")
+            div.form-group
+              label(for="message") Message
+              textarea#message
+          span.back(ng-if="formStep > 1" ng-click="formPrev()") Back
+          span.next(ng-if="formStep < 3" ng-click="formNext()") Next
+          input(type="submit", value="Send", ng-if="formStep === 3")

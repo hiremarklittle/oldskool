@@ -1,0 +1,306 @@
+{
+  "venues": [
+    {
+      "name": "Al's Bar & Grille",
+      "img": "img/venues/als.png",
+      "location": [
+        {
+          "address1": "8321 Magnolia Esates Dr",
+          "address2": "Cornelius, NC 28031",
+          "phone": "7049876582",
+          "shows": [
+            {
+              "type": "Trivia",
+              "start": "7:30pm",
+              "end": "9:30pm",
+              "day": "Tuesday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hattie's Tap & Tavern",
+      "img": "img/venues/hatties.png",
+      "location": [
+        {
+          "address1": "2918 The Plaza",
+          "address2": "Charlotte, NC 28205",
+          "phone": "7049386228",
+          "shows": [
+            {
+              "type": "Bingo",
+              "start": "8:00pm",
+              "end": "12:00am",
+              "day": "Tuesday"
+            },
+            {
+              "type": "Karaoke",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Thursday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Picasso's",
+      "img": "img/venues/picassos.png",
+      "location": [
+        {
+          "address1": "230 E WT Harris Blvd",
+          "address2": "Charlotte, NC 28262",
+          "phone": "7045959553",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Thursday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fox & Hound",
+      "img": "img/venues/foxandhound.png",
+      "location": [
+        {
+          "address1": "8500 Pineville-Matthews Road",
+          "address2": "Charlotte, NC 28226",
+          "phone": "7045410794",
+          "shows": [
+            {
+              "type": "DJ",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Saturday"
+            },
+            {
+              "type": "Karaoke",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Sunday"
+            }
+          ]
+        },
+        {
+          "address1": "9325 Center Lake Drive Ste 200",
+          "address2": "Charlotte, NC 28216",
+          "phone": "7045092853",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Tuesday"
+            },
+            {
+              "type": "DJ",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Friday"
+            }
+          ]
+        },
+        {
+          "address1": "8711 Lindholm Dr",
+          "address2": "Huntersville, NC 28078",
+          "phone": "7048954504",
+          "shows": [
+            {
+              "type": "DJ",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Friday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Midtown Sundries",
+      "img": "img/venues/midtown.png",
+      "location": [
+        {
+          "address1": "9789 Charlotte Highway",
+          "address2": "Fort Mill, SC 29707",
+          "phone": "8035482413",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "8:30pm",
+              "end": "12:30am",
+              "day": "Friday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tin Roof",
+      "img": "img/venues/tinroof.png",
+      "location": [
+        {
+          "address1": "210 E Trade St",
+          "address2": "Charlotte, NC 28202",
+          "phone": "7045482413",
+          "shows": [
+            {
+              "type": "Trivia",
+              "start": "7:00pm",
+              "end": "9:00pm",
+              "day": "Wednesday"
+            },
+            {
+              "type": "Karaoke",
+              "start": "9:00pm",
+              "end": "1:00am",
+              "day": "Wednesday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TILT on Trade",
+      "img": "img/venues/tilt.png",
+      "location": [
+        {
+          "address1": "127 W Trade St",
+          "address2": "Charlotte, NC 28202",
+          "phone": "7043474850",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "10:00pm",
+              "end": "2:00am",
+              "day": "Wednesday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Char Bar 7",
+      "img": "img/venues/charbar.png",
+      "location": [
+        {
+          "address1": "3118 Fincher Farm Rd",
+          "address2": "Matthews, NC 28105",
+          "phone": "7048140208",
+          "shows": [
+            {
+              "type": "Trivia",
+              "start": "7:00pm",
+              "end": "9:00pm",
+              "day": "Tuesday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hickory Tavern",
+      "img": "img/venues/hickorytavern.png",
+      "location": [
+        {
+          "address1": "2005 E. Arbors Drive",
+          "address2": "Charlotte, NC 28262",
+          "phone": "7042959001",
+          "shows": [
+            {
+              "type": "Music Trivia",
+              "start": "7:00pm",
+              "end": "9:00pm",
+              "day": "Wednesday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whisky River",
+      "img": "img/venues/whiskyriver.png",
+      "location": [
+        {
+          "address1": "210 E Trade St Ste A-208",
+          "address2": "Charlotte, NC 28202",
+          "phone": "7047491097",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "9:00pm",
+              "end": "1:00am",
+              "day": "Thursday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TGI Fridays",
+      "img": "img/venues/tgi.png",
+      "location": [
+        {
+          "address1": "6840 Northlake Mall Drive",
+          "address2": "Charlotte, NC 28269",
+          "phone": "7045962869",
+          "shows": [
+            {
+              "type": "Karaoke",
+              "start": "8:00pm",
+              "end": "12:00am",
+              "day": "Monday"
+            },
+            {
+              "type": "DJ",
+              "start": "9:00pm",
+              "end": "1:00am",
+              "day": "Friday"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "letter": "S",
+      "short": "Sun",
+      "day": "Sunday"
+    },
+    {
+      "letter": "M",
+      "short": "Mon",
+      "day": "Monday"
+    },
+    {
+      "letter": "T",
+      "short": "Tues",
+      "day": "Tuesday"
+    },
+    {
+      "letter": "W",
+      "short": "Wed",
+      "day": "Wednesday"
+    },
+    {
+      "letter": "T",
+      "short": "Thurs",
+      "day": "Thursday"
+    },
+    {
+      "letter": "F",
+      "short": "Fri",
+      "day": "Friday"
+    },
+    {
+      "letter": "S",
+      "short": "Sat",
+      "day": "Saturday"
+    }
+  ]
+}
